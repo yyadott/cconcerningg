@@ -203,10 +203,10 @@ html, body {
     100% { background-position: 0 0; }
 }
 @media (max-width: 480px) {
-  .img{
+.img{
     width: 180px;
     height: 180px; 
-    margin-left: 105px; 
+    margin-left: 98px; 
     margin-top: 40px;
 }
 .icon{
@@ -227,7 +227,7 @@ html, body {
   height: 60px;
   border: 3px solid #ffd700 !important;
   border-radius: 10px;
-  margin-left: 100px;
+  margin-left: 93px;
   margin-top: 3px;
   margin-bottom: -40px !important;
   padding-top: 30px;
@@ -238,6 +238,6 @@ html, body {
 .btn{
   width: 300px;
   max-width: 100%;
-  margin: 10px 0 10px 15px !important;
+  margin: 10px 0 10px 10px !important;
 }
 }

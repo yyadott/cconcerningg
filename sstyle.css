@@ -28,7 +28,7 @@ html, body {
     right: 0;
     height: 100%;
     margin: auto;
-    width: 90vw;
+    width: 100vw;
   }
   
   .line {
@@ -92,7 +92,7 @@ html, body {
   .navbar {
     margin-top: -30px;
     background: #006eff;
-    border-bottom: 3px solid  white;
+    border-bottom: 4px solid  #ffd700;
     border-radius: 0 0 10px 12px;
     paint-order: fill;
   }
@@ -103,10 +103,11 @@ html, body {
   }
 .img{
    text-align: center !important;
-   position: relative;
+   position: absolute;
+   background: #ffd700;
    width: 250px;
    height: 250px; 
-   margin : 35px 0 0 485px;
+   margin : 35px 0 0 550px;
   }
 .col{
     margin-top: 50px;
@@ -115,14 +116,25 @@ html, body {
     color: white;
     position: relative;
     text-align: center !important;
+    text-shadow: 1px 3px 2px #003984;
     font-size: 2.5em;
-    margin-bottom: -45px !important;
-    margin-top: 20px;
+    margin-bottom: -53px !important;
+    margin-top: 30px;
+    padding-top: 320px;
   }
+  .kotak{
+  width: 190px;
+  height: 60px;
+  background: #006eff ;
+  border: 4px solid #ffd700;
+  margin-left: 580px;
+  margin-top: -40px;
+  border-radius: 10px;
+}
   .icon{
     padding: 10px 13px 0 0; 
     font-size: 2.5em;
-    color: #ffd700;
+    text-shadow: 1px 3px 2px #2180fc;
   }
   .btn {
     width: 450px;
@@ -131,11 +143,11 @@ html, body {
     outline: none;
     font-weight: 700;
     font-size: 1.05rem;
-    color: #f2f2f2;
-    background: #00fbff;
+    color: #ffd700;
+    background: #006eff;
     cursor: pointer;
     position: relative;
-    margin: 10px 20px 10px 80px !important;
+    margin: 10px 20px 10px 120px !important;
     padding: 10px 20px 10px 20px !important;
     z-index: 0;
     border-radius: 10px;
@@ -143,7 +155,7 @@ html, body {
 
 .btn:before {
     content: '';
-    background: linear-gradient(#ffd700,#ff9d00);
+    background: linear-gradient(#006eff,#003984);
     position: absolute;
     top: -2px;
     left:-2px;
@@ -195,26 +207,37 @@ html, body {
     width: 180px;
     height: 180px; 
     margin-left: 105px; 
-    margin-top: 30px;
+    margin-top: 40px;
+}
+.icon{
+  padding: 10px 13px 0 10px; 
 }
   .display-3{
   color: white;
   position: relative;
   margin-top: 10px;
+  padding-top: 260px;
   padding-bottom: 28px;
-  margin-bottom: -48px !important;
+  font-size: 35px;
+  margin-bottom: -78px !important;
+  text-shadow: 1px 3px 2px #003984;
 }
 .kotak{
-  width: 190px;
-  height: 30px;
-  background: #006eff ;
+  
+  height: 60px;
+  border: 3px solid #ffd700 !important;
+  border-radius: 10px;
   margin-left: 100px;
-border-radius: 1.5px;
+  margin-top: 3px;
+  margin-bottom: -40px !important;
+  padding-top: 30px;
+}
+.col{
+  margin-top: 45px;
 }
 .btn{
   width: 300px;
   max-width: 100%;
   margin: 10px 0 10px 15px !important;
-
 }
 }

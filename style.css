@@ -106,7 +106,7 @@ html, body {
    position: relative;
    width: 250px;
    height: 250px; 
-   margin : 35px 0 0 485px;
+   margin : 35px 0 0 550px;
   }
 .col{
     margin-top: 50px;
@@ -135,7 +135,7 @@ html, body {
     background: #00fbff;
     cursor: pointer;
     position: relative;
-    margin: 10px 20px 10px 80px !important;
+    margin: 10px 20px 10px 120px !important;
     padding: 10px 20px 10px 20px !important;
     z-index: 0;
     border-radius: 10px;

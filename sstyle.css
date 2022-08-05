@@ -1,9 +1,13 @@
+@font-face {
+  font-family: "Campton";
+  src: url('Fonts/Campton\ Font/CamptonMedium.otf');
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box !important;
     max-width: 100%;
-    font-family: 'Campton';
+    font-family: "Campton";
   }
 html, body {
     height: 100%;
@@ -16,7 +20,6 @@ html, body {
     color: #000;
     line-height: 1.6;
     position: relative;
-    font-family: sans-serif;
     margin-bottom: 120px;
     margin-top: 30px;
     grid-row: 1;
